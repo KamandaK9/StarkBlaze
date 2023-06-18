@@ -5,13 +5,13 @@ This was designed following the Model-View-ViewModel (MVVM) architectural patter
 It also employs a tab bar for seamless navigation between Houses, Characters, and Books. The app makes extensive use of Apple's Combine framework for handling asynchronous events.
 
  # Why MVVM?
-In the case of our app, networking can benefit from MVVM because the ViewModel can act as an intermediary between the View and the Model, which handles the networking. 
+In the case of this app, networking can benefit from MVVM because the ViewModel can act as an intermediary between the View and the Model, which handles the networking. 
 This means that the View doesn't need to know about the networking layer. It only needs to know about the ViewModel, which provides it with the data it needs. 
 This makes the code more modular and easier to understand, test, and maintain.
 
 # Why Combine?
 In my app, Combine is used in the ViewModel to manage asynchronous tasks. 
-This allows us to handle complex networking tasks with ease, making our code cleaner and more manageable. 
+This allowed me to handle complex networking tasks with ease, making my code cleaner and more manageable. 
 Furthermore, Combine works well with Swift and Apple APIs, providing a consistent and efficient way to handle asynchronous events.
 
 # Features
