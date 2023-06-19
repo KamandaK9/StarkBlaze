@@ -38,4 +38,7 @@ Simply download the project and open it in Xcode to run it on your preferred sim
 - The search controller was quite difficult for me. It works well on the Book tab however, keeping it persistant on the other tabs proved to be quite difficult. A search can be made, but
 - retaining that search and displaying it was a challenge
 
+# Issue 3
+- There is a Glitch in the "Characters" tab whereby a 1 card appears, please pull down to the see the rest in ascending order. 
+
 Thank you for the opportunity. I learnt alot.
